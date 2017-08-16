@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60F1C19C1F4422C60059D1E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F1C19B1F4422C60059D1E9 /* AppDelegate.swift */; };
+		60F1C19E1F4422C60059D1E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F1C19D1F4422C60059D1E9 /* ViewController.swift */; };
+		60F1C1A11F4422C70059D1E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F1C19F1F4422C70059D1E9 /* Main.storyboard */; };
+		60F1C1A31F4422C70059D1E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F1C1A21F4422C70059D1E9 /* Assets.xcassets */; };
+		60F1C1A61F4422C70059D1E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F1C1A41F4422C70059D1E9 /* LaunchScreen.storyboard */; };
+		60F1C1B11F4422C70059D1E9 /* cinebookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F1C1B01F4422C70059D1E9 /* cinebookingTests.swift */; };
+		60F1C1BC1F4422C70059D1E9 /* cinebookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F1C1BB1F4422C70059D1E9 /* cinebookingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60F1C1AD1F4422C70059D1E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F1C1901F4422C60059D1E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60F1C1971F4422C60059D1E9;
+			remoteInfo = cinebooking;
+		};
+		60F1C1B81F4422C70059D1E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60F1C1901F4422C60059D1E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60F1C1971F4422C60059D1E9;
+			remoteInfo = cinebooking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60F1C1981F4422C60059D1E9 /* cinebooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cinebooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F1C19B1F4422C60059D1E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60F1C19D1F4422C60059D1E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60F1C1A01F4422C70059D1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60F1C1A21F4422C70059D1E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60F1C1A51F4422C70059D1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60F1C1A71F4422C70059D1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60F1C1AC1F4422C70059D1E9 /* cinebookingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cinebookingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F1C1B01F4422C70059D1E9 /* cinebookingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cinebookingTests.swift; sourceTree = "<group>"; };
+		60F1C1B21F4422C70059D1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60F1C1B71F4422C70059D1E9 /* cinebookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cinebookingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F1C1BB1F4422C70059D1E9 /* cinebookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cinebookingUITests.swift; sourceTree = "<group>"; };
+		60F1C1BD1F4422C70059D1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60F1C1951F4422C60059D1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F1C1A91F4422C70059D1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F1C1B41F4422C70059D1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60F1C18F1F4422C60059D1E9 = {
+			isa = PBXGroup;
+			children = (
+				60F1C19A1F4422C60059D1E9 /* cinebooking */,
+				60F1C1AF1F4422C70059D1E9 /* cinebookingTests */,
+				60F1C1BA1F4422C70059D1E9 /* cinebookingUITests */,
+				60F1C1991F4422C60059D1E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60F1C1991F4422C60059D1E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60F1C1981F4422C60059D1E9 /* cinebooking.app */,
+				60F1C1AC1F4422C70059D1E9 /* cinebookingTests.xctest */,
+				60F1C1B71F4422C70059D1E9 /* cinebookingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60F1C19A1F4422C60059D1E9 /* cinebooking */ = {
+			isa = PBXGroup;
+			children = (
+				60F1C19B1F4422C60059D1E9 /* AppDelegate.swift */,
+				60F1C19D1F4422C60059D1E9 /* ViewController.swift */,
+				60F1C19F1F4422C70059D1E9 /* Main.storyboard */,
+				60F1C1A21F4422C70059D1E9 /* Assets.xcassets */,
+				60F1C1A41F4422C70059D1E9 /* LaunchScreen.storyboard */,
+				60F1C1A71F4422C70059D1E9 /* Info.plist */,
+			);
+			path = cinebooking;
+			sourceTree = "<group>";
+		};
+		60F1C1AF1F4422C70059D1E9 /* cinebookingTests */ = {
+			isa = PBXGroup;
+			children = (
+				60F1C1B01F4422C70059D1E9 /* cinebookingTests.swift */,
+				60F1C1B21F4422C70059D1E9 /* Info.plist */,
+			);
+			path = cinebookingTests;
+			sourceTree = "<group>";
+		};
+		60F1C1BA1F4422C70059D1E9 /* cinebookingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60F1C1BB1F4422C70059D1E9 /* cinebookingUITests.swift */,
+				60F1C1BD1F4422C70059D1E9 /* Info.plist */,
+			);
+			path = cinebookingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60F1C1971F4422C60059D1E9 /* cinebooking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60F1C1C01F4422C70059D1E9 /* Build configuration list for PBXNativeTarget "cinebooking" */;
+			buildPhases = (
+				60F1C1941F4422C60059D1E9 /* Sources */,
+				60F1C1951F4422C60059D1E9 /* Frameworks */,
+				60F1C1961F4422C60059D1E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cinebooking;
+			productName = cinebooking;
+			productReference = 60F1C1981F4422C60059D1E9 /* cinebooking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60F1C1AB1F4422C70059D1E9 /* cinebookingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60F1C1C31F4422C70059D1E9 /* Build configuration list for PBXNativeTarget "cinebookingTests" */;
+			buildPhases = (
+				60F1C1A81F4422C70059D1E9 /* Sources */,
+				60F1C1A91F4422C70059D1E9 /* Frameworks */,
+				60F1C1AA1F4422C70059D1E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60F1C1AE1F4422C70059D1E9 /* PBXTargetDependency */,
+			);
+			name = cinebookingTests;
+			productName = cinebookingTests;
+			productReference = 60F1C1AC1F4422C70059D1E9 /* cinebookingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60F1C1B61F4422C70059D1E9 /* cinebookingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60F1C1C61F4422C70059D1E9 /* Build configuration list for PBXNativeTarget "cinebookingUITests" */;
+			buildPhases = (
+				60F1C1B31F4422C70059D1E9 /* Sources */,
+				60F1C1B41F4422C70059D1E9 /* Frameworks */,
+				60F1C1B51F4422C70059D1E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60F1C1B91F4422C70059D1E9 /* PBXTargetDependency */,
+			);
+			name = cinebookingUITests;
+			productName = cinebookingUITests;
+			productReference = 60F1C1B71F4422C70059D1E9 /* cinebookingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60F1C1901F4422C60059D1E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Andy Nie";
+				TargetAttributes = {
+					60F1C1971F4422C60059D1E9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					60F1C1AB1F4422C70059D1E9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60F1C1971F4422C60059D1E9;
+					};
+					60F1C1B61F4422C70059D1E9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60F1C1971F4422C60059D1E9;
+					};
+				};
+			};
+			buildConfigurationList = 60F1C1931F4422C60059D1E9 /* Build configuration list for PBXProject "cinebooking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60F1C18F1F4422C60059D1E9;
+			productRefGroup = 60F1C1991F4422C60059D1E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60F1C1971F4422C60059D1E9 /* cinebooking */,
+				60F1C1AB1F4422C70059D1E9 /* cinebookingTests */,
+				60F1C1B61F4422C70059D1E9 /* cinebookingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60F1C1961F4422C60059D1E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F1C1A61F4422C70059D1E9 /* LaunchScreen.storyboard in Resources */,
+				60F1C1A31F4422C70059D1E9 /* Assets.xcassets in Resources */,
+				60F1C1A11F4422C70059D1E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F1C1AA1F4422C70059D1E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F1C1B51F4422C70059D1E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60F1C1941F4422C60059D1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F1C19E1F4422C60059D1E9 /* ViewController.swift in Sources */,
+				60F1C19C1F4422C60059D1E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F1C1A81F4422C70059D1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F1C1B11F4422C70059D1E9 /* cinebookingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F1C1B31F4422C70059D1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F1C1BC1F4422C70059D1E9 /* cinebookingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60F1C1AE1F4422C70059D1E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60F1C1971F4422C60059D1E9 /* cinebooking */;
+			targetProxy = 60F1C1AD1F4422C70059D1E9 /* PBXContainerItemProxy */;
+		};
+		60F1C1B91F4422C70059D1E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60F1C1971F4422C60059D1E9 /* cinebooking */;
+			targetProxy = 60F1C1B81F4422C70059D1E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60F1C19F1F4422C70059D1E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60F1C1A01F4422C70059D1E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60F1C1A41F4422C70059D1E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60F1C1A51F4422C70059D1E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60F1C1BE1F4422C70059D1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60F1C1BF1F4422C70059D1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60F1C1C11F4422C70059D1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cinebooking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZeN.cinebooking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		60F1C1C21F4422C70059D1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cinebooking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZeN.cinebooking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		60F1C1C41F4422C70059D1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cinebookingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZeN.cinebookingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cinebooking.app/cinebooking";
+			};
+			name = Debug;
+		};
+		60F1C1C51F4422C70059D1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cinebookingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZeN.cinebookingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cinebooking.app/cinebooking";
+			};
+			name = Release;
+		};
+		60F1C1C71F4422C70059D1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = cinebookingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZeN.cinebookingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cinebooking;
+			};
+			name = Debug;
+		};
+		60F1C1C81F4422C70059D1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = cinebookingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZeN.cinebookingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cinebooking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60F1C1931F4422C60059D1E9 /* Build configuration list for PBXProject "cinebooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60F1C1BE1F4422C70059D1E9 /* Debug */,
+				60F1C1BF1F4422C70059D1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60F1C1C01F4422C70059D1E9 /* Build configuration list for PBXNativeTarget "cinebooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60F1C1C11F4422C70059D1E9 /* Debug */,
+				60F1C1C21F4422C70059D1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60F1C1C31F4422C70059D1E9 /* Build configuration list for PBXNativeTarget "cinebookingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60F1C1C41F4422C70059D1E9 /* Debug */,
+				60F1C1C51F4422C70059D1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60F1C1C61F4422C70059D1E9 /* Build configuration list for PBXNativeTarget "cinebookingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60F1C1C71F4422C70059D1E9 /* Debug */,
+				60F1C1C81F4422C70059D1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60F1C1901F4422C60059D1E9 /* Project object */;
+}
